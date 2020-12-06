@@ -19,7 +19,9 @@
 
 | --- | --- | ---
 
-[Vishnuvasan](https://github.com/Cipher-unhsiV)
+[@Vishnuvasan](https://github.com/Cipher-unhsiV)
+| ---
+![@Vishnuvasan](https://avatars.githubusercontent.com/Cipher-unhsiV?s=150&v=1)
 
 
 
