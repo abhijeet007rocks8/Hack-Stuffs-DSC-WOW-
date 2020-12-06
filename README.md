@@ -13,9 +13,9 @@
 
 | Vishnuvasan | [Github](https://github.com/Cipher-unhsiV "Vishnu profile") | [Linked](https://www.linkedin.com/in/vishnuvasan-srinivasan-0b2012194/ "Vishnu")
 
-| Saurabh Gupta | [Github]( "Karthikeya profile") | [Linked]( "Karthikey")
+| Saurabh Gupta | [Github]( "Saurabh profile") | [Linked]( "Saurabh")
 
-| Geetika Rijhwani | [Github]( "Neha profile") | [Linked]( "Neha")
+| Geetika Rijhwani | [Github]( "Geetika profile") | [Linked]( "Geetika")
 
 
 
