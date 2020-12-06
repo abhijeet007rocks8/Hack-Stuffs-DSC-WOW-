@@ -1,2 +1,14 @@
-# Hack-Stuffs
-DSC WOW
+# TEAM :- BARCAMPEEZ
+## PROJECT :- Mysuru Voyage
+## LOGO :-
+
+## OBJECTIVE :-
+
+## FEATURES :-
+
+## TEAMMATES :-
+
+## TECHNOLOGIES USED :-
+
+## SCREEN-SHOTS :-
+
