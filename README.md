@@ -20,6 +20,8 @@
 
 ## TECHNOLOGIES USED :-
 
+```Markdown```
+
 ## SCREEN-SHOTS :-
 
 
