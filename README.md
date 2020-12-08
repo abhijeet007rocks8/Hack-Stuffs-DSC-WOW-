@@ -22,7 +22,7 @@
 
 ## TECHNOLOGIES USED :-
 
-```ReactJS``` ```NodeJS``` ```MongoDB``` ```Markdown```
+```ReactJS``` ```NodeJS``` ```MongoDB``` ```Markdown``` ```HTML``` ```CSS``` ```JavaScript```
 
 ## SCREEN-SHOTS :-
 
