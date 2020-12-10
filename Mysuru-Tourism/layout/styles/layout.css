@@ -25,7 +25,6 @@ File: Layout CSS
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
 #header{padding:0 15px; border:solid; border-width:1px 0;}
-
 #header #logo{margin:28px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; line-height:1; text-transform:uppercase;}
 
@@ -33,9 +32,8 @@ File: Layout CSS
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:180px 0;}
-
 #pageintro article{display:block; max-width:60%; margin:0 auto; text-align:center;}
-#pageintro .heading{margin-bottom:20px; font-size:4rem;}
+#pageintro .heading{margin-bottom:20px; font-size:3rem;}
 #pageintro p{max-width:75%; margin:0 auto;}
 #pageintro footer{margin-top:50px;}
 #pageintro footer form{display:block; position:relative; max-width:50%; margin:0 auto; overflow:hidden;}
@@ -383,7 +381,107 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 
 #backtotop{color:#FFFFFF; background-color:#829DA2;}
 
+/*------------------------------------------------------------------------------------------*/
+.card-deck-scrollable {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    display: -webkit-box;
+    display: flex;
+}
+.flex-nowrap {
+    flex-wrap: nowrap!important;
+}
 
+.h-scroll-lg-down .card-deck-scrollable {
+    margin-right: 0;
+    margin-left: 0;
+}
+.card-deck-scrollable>.card-sm {
+    margin: 0 15px;
+    -webkit-box-flex: 0!important;
+    flex: 0 0 160px!important;
+    max-width: 250px;
+    min-height: 220px;
+}
+.card-img-bg.text-bottom {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.card-img-bg.text-center {
+    -webkit-box-align: center,top;
+    align-items: center,top;
+}
+.card-subtitle, .card-text:last-child {
+    margin-bottom: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 15px;
+}
+.grid .grid-item, .grid .grid-sizer {
+    width: calc(25% - 22.5px);
+}
+.grid .grid-item {
+    width: 100%;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.card .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height:400px;
+}
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 10%;
+    width: 100%;
+    height: 100%;
+}
+.card-body{
+	width:400px
+	height:300px;
+}
+.grid .grid-item-half {
+    width: calc(50% - 15px);
+}
+
+img, svg {
+    vertical-align: middle,top;
+}
+img {
+    border-style: none;
+}
+@media (min-width: 992px)
+.grid .grid-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px)
+.grid .grid-item-half {
+    width: calc(50% - 15px);
+}
+/*------------------------------------------------------------------------------------------*/
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
 #comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#829DA2;}
@@ -408,7 +506,8 @@ table a, #comments a{background-color:inherit;}
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:1140px){
-	.hoc{max-width:1140px;}
+	.hoc{max-width:1140px;
+		max-height: 100%;}
 }
 
 @media screen and (min-width:978px) and (max-width:1140px){
