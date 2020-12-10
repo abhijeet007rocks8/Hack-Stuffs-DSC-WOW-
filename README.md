@@ -2,7 +2,8 @@
 ## PROJECT :- Tour Mysuru
 ## LOGO :-
 
-![PSX_20201206_103957](https://user-images.githubusercontent.com/64918181/101376457-9e01b180-38d6-11eb-8a2a-79fb5590d47e.jpg)
+![PSX_20201210_113914](https://user-images.githubusercontent.com/64918181/101764807-83ae1a80-3b06-11eb-844c-55a0f43740c4.jpg)
+
 
 ## OBJECTIVE :-
 
