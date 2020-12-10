@@ -1,4 +1,4 @@
-# TEAM :- BARCAMPEEZ
+# TEAM :- BARCAMPEE
 ## PROJECT :- Tour Mysuru
 ## LOGO :-
 
