@@ -23,7 +23,7 @@
 
 ## TECHNOLOGIES USED :-
 
-
+```HTML```  ```CSS```  ```JavaScript```  ```JQuery```  ```Markdown``` 
 
 ## SCREEN-SHOTS :-
 
