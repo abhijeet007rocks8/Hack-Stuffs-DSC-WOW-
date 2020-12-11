@@ -27,7 +27,7 @@ File: Layout CSS
 #header{padding:0 15px; border:solid; border-width:1px 0;}
 #header #logo{margin:28px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; line-height:1; text-transform:uppercase;}
-
+#logo h5 a{font-size:17px;}
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
@@ -434,9 +434,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
     border: 0 solid rgba(0,0,0,.125);
     border-radius: 15px;
 }
+
+@media (min-width: 992px){
 .grid .grid-item, .grid .grid-sizer {
     width: calc(25% - 22.5px);
-}
+}}
+
 .grid .grid-item {
     width: 100%;
 }
@@ -465,21 +468,56 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 .grid .grid-item-half {
     width: calc(50% - 15px);
 }
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+}
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
 img, svg {
     vertical-align: middle,top;
 }
 img {
     border-style: none;
 }
-@media (min-width: 992px)
+@media (min-width: 992px){
 .grid .grid-item:not(:last-child) {
     margin-bottom: 30px;
-}
+}}
 
-@media (min-width: 992px)
+@media (min-width: 992px){
 .grid .grid-item-half {
     width: calc(50% - 15px);
+}}
+
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}
+.grid .grid-item-half {
+    width: calc(50% - 15px);}
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 540px;
+}}
+.sectiontile p{
+	font-size: 15px;
 }
 /*------------------------------------------------------------------------------------------*/
 /* Tables + Comments */
