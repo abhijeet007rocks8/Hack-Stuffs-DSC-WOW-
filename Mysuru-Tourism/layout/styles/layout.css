@@ -37,7 +37,7 @@ File: Layout CSS
 #pageintro p{max-width:75%; margin:0 auto;}
 #pageintro footer{margin-top:50px;}
 #pageintro footer form{display:block; position:relative; max-width:50%; margin:0 auto; overflow:hidden;}
-#pageintro footer input, #pageintro footer button{display:block; height:80px; border:none;}
+#pageintro footer input, #pageintro footer button{display:block; height:40px; border:none;}
 #pageintro footer input{width:100%; padding:5px 40px 5px 15px;}
 #pageintro footer button{position:absolute; top:1px; right:1px; width:42px; height:42px; font-size:16px; cursor:pointer;}
 #pageintro footer button em{display:none;}
@@ -440,9 +440,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
     width: calc(25% - 22.5px);
 }}
 
+@media (min-width: 512px){
 .grid .grid-item {
     width: 100%;
-}
+}}
+
 .shadow {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
@@ -465,6 +467,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 	width:400px
 	height:300px;
 }
+
 .grid .grid-item-half {
     width: calc(50% - 15px);
 }
@@ -516,8 +519,12 @@ img {
 .container, .container-sm {
     max-width: 540px;
 }}
-.sectiontile p{
-	font-size: 15px;
+#map-tile{
+	height:250px;
+	width:100%;
+	margin-bottom: 15px;
+	position: relative;
+	overflow:hidden;/*specially for the map*/
 }
 /*------------------------------------------------------------------------------------------*/
 /* Tables + Comments */
