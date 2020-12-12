@@ -545,25 +545,31 @@ hr {
 }
 .text-holder{
 	font-family:'Montserrat';
+	font-size:1.1em;
+	height: auto;
+	width: 90%;
+	overflow:hidden;
 }
+@media (max-width: 1023px){
 .base-block {
     background: #d3d3d3;
     box-shadow: 0 0 50px 0 rgba(0,0,0,0.02);
     margin: 30px 0;
-    height: 880px;
+    height: auto;
+    width: 60%;
     border-radius: 15px;
     padding:20px;
- }
+    }
 }
-@media (max-width: 1023px)
+@media (max-width: 1023px){
 .info-head {
     flex-direction: column;
-}
+}}
 
-@media (min-width: 480px)
+@media (min-width: 480px){
 .info-head {
     align-items: center;
-}
+}}
 .info-head {
     display: flex;
     flex-wrap: wrap;
@@ -661,4 +667,17 @@ h3 {
 }
 .main-content-section .post-holder .read-more-content {
     font-size: 1.4rem;
+}
+@media(max-width: px)
+{
+.base-block {
+    background: #d3d3d3;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.02);
+    margin: 10px 0;
+    height:all;
+    width:50%;
+    border-radius: 15px;
+    padding:20px;
+    width:auto;
+ }
 }
