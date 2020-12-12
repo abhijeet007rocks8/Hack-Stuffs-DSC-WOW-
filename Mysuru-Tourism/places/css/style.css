@@ -17,7 +17,7 @@ img {
 }
 /*------------------------------ Sprites ------------------------------*/
 #navigation li, #navigation li a:hover, #navigation li.selected a {
-	background-image: url(../images/bg-menu.png);
+	background-image: url(../images/bg-menu.png); 
 	background-repeat: repeat-x;
 }
 #contents div.box, #contents div.box > div, #contents div.body {
@@ -60,7 +60,7 @@ img {
 	background-position: 0 -118px;
 	background-repeat: no-repeat;
 	height: 49px;
-	width: 171px;
+	width: 150px;
 	margin: 0;
 	padding-left: 1px;
 	text-align: center;
@@ -84,7 +84,9 @@ img {
 }
 #navigation li.selected a {
 	background-position: 0 0;
-	color: #e4e1bd;
+	color: #100f0f;
+	background-color: #d3d3d3;
+	border-radius: 10px;
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents {
@@ -685,3 +687,7 @@ h3 {
 	width:1000px; 
 	border-radius: 15px;
 }
+#backtotop{z-index:999; display:inline-block; position:fixed; visibility:hidden; bottom:20px; right:20px; width:36px; height:36px; line-height:36px; font-size:16px; text-align:center; opacity:.2;}
+#backtotop i{display:block; width:100%; height:100%; line-height:inherit;}
+#backtotop.visible{visibility:visible; opacity:.5;}
+#backtotop:hover{opacity:1;}
