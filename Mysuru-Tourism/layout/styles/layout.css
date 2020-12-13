@@ -446,6 +446,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
     width: calc(25% - 22.5px);
 }}
 
+
 @media (min-width: 512px){
 .grid .grid-item {
     width: 100%;
