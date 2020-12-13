@@ -6,7 +6,7 @@
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
-.row1{padding:80px 0 0 0;}
+.row1{padding:30px 0 0 0;}
 .row2, .row2 a{}
 .row3, .row3 a{}
 .row4, .row4 a{}
@@ -41,7 +41,7 @@
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle{display:block; max-width:65%; margin:0 auto 80px; text-align:center;font-color:"#fff";}
 .sectiontitle .heading{margin:0; padding:0; line-height:1;}
 
 #introblocks{}
@@ -157,11 +157,11 @@
 #footer .latestimg > li img{width:100%;}/* Force the image to resize to take the full space - may have to be changed for tablets, depends on personal preference */
 #footer .latestimg > li a.imgover{display:block;}
 
-#footer #ctdetails{padding-top:80px; border-top:1px solid;}
+#footer #ctdetails{padding-top:20px; border-top:1px solid;}
 #footer #ctdetails ul{}
 #footer #ctdetails ul li{}
-#footer #ctdetails ul li div{position:relative; min-height:30px; padding:0 0 0 35px; line-height:1;}
-#footer #ctdetails ul li div i{position:absolute; top:0; left:0; width:25px; height:23px; font-size:20px; text-align:center;}
+#footer #ctdetails ul li div{position:relative; min-height:20px; padding:0 0 0 35px; line-height:1;}
+#footer #ctdetails ul li div i{position:absolute; top:0; left:0; width:25px; height:20px; font-size:20px; text-align:center;}
 #footer #ctdetails ul li div span{display:block;}
 #footer #ctdetails ul li div strong{display:block; margin:0 0 8px 0; text-transform:capitalize;}
 
@@ -316,9 +316,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 /* Rows */
 .row0, .row0 a{}
 .row1, .row1 a{}
-.row2{color:#474747; background-color:#F4F4F4;}
-.row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#C1C2C4; background-color:#323639;}
+.row2{color:#ffffff; background-color:#322f2f;}
+.row3{color:#ffffff; background-color: #323639;}
+.row4{color:#ffffff; background-color:#323639;}
 .row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
 
 
@@ -406,6 +406,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 .card-subtitle, .card-text:last-child {
     margin-bottom: 0;
     display: block;
+    padding: 5px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -424,6 +425,20 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
     background-clip: border-box;
     border: 0 solid rgba(0,0,0,.125);
     border-radius: 15px;
+}
+
+.faico a {
+    color: #474747;
+    background-color: #DBE5E7;
+}
+
+.faico a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
 }
 
 @media (min-width: 992px){
@@ -476,6 +491,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 *, *::before, *::after {
     box-sizing: border-box;
 }
+.card-text
+{
+	color: ##474747
+	padding-bottom:5px;
+}
+
 
 div {
     display: block;
@@ -600,7 +621,7 @@ table a, #comments a{background-color:inherit;}
 	.cta > :first-child{margin-top:0; text-align:center;}
 	.cta footer a{display:inline-block;}
 
-	#footer{padding-bottom:50px;}/* Not required, just looks a little better */
+	#footer{padding-bottom:20px;}/* Not required, just looks a little better */
 	#footer .latestimg > li{display:inline-block; float:none; width:auto; margin:0 5% 5% 0;}
 	#footer .latestimg > li img{width:auto;}
 }
