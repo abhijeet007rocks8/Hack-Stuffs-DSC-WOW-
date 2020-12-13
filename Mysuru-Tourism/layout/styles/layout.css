@@ -496,8 +496,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#829DA2;}
 	color: ##474747
 	padding-bottom:5px;
 }
-
-
 div {
     display: block;
 }
@@ -633,7 +631,6 @@ table a, #comments a{background-color:inherit;}
 	#testimonials article:first-of-type{margin-bottom:50px;}
 	#testimonials article img{position:relative; top:inherit; left:inherit; margin-bottom:20px;}
 }
-
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
